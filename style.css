@@ -11,6 +11,47 @@ License: GNU General Public License, v2 (or newer)
 License URI: http://www.opensource.org/licenses/gpl-2.0.html
 */
 
-body {
+html {
+	overflow-y: scroll;
 }
 
+body {
+	margin: 0;
+	font-family: 'Arial' , sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+
+/* WordPress API Elements */
+
+.wp-caption {
+	text-align: center;
+	background: #ccc;
+}
+
+.wp-caption p {
+	margin: 5px 0;
+	line-height: 11px;
+	font-size: 11px;
+}
+
+.wp-caption-text {}
+
+.sticky {}
+
+.aligncenter {
+	margin: 0 auto;
+	display: block;
+}
+
+.alignright {
+	margin: 10px 0 10px 10px;
+	display: inline;
+	float: right;
+}
+
+.alignleft {
+	margin: 10px 10px 10px 0;
+	display: inline;
+	float: left;
+}
